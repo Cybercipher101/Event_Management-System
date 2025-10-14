@@ -1,0 +1,118 @@
+{
+  "name": "Event",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Event title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the event"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "conference",
+        "meeting",
+        "gala",
+        "tournament",
+        "workshop",
+        "webinar",
+        "concert",
+        "exhibition",
+        "networking",
+        "seminar"
+      ],
+      "description": "Type of event"
+    },
+    "venue_name": {
+      "type": "string",
+      "description": "Name of the venue"
+    },
+    "venue_address": {
+      "type": "string",
+      "description": "Full address of the venue"
+    },
+    "venue_city": {
+      "type": "string",
+      "description": "City where event takes place"
+    },
+    "venue_country": {
+      "type": "string",
+      "description": "Country where event takes place"
+    },
+    "start_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Event start date and time"
+    },
+    "end_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Event end date and time"
+    },
+    "ticket_price": {
+      "type": "number",
+      "description": "Price per ticket"
+    },
+    "currency": {
+      "type": "string",
+      "default": "INR",
+      "description": "Currency for ticket price"
+    },
+    "total_capacity": {
+      "type": "integer",
+      "description": "Maximum number of attendees"
+    },
+    "tickets_sold": {
+      "type": "integer",
+      "default": 0,
+      "description": "Number of tickets sold"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "published",
+        "cancelled",
+        "completed"
+      ],
+      "default": "draft",
+      "description": "Event status"
+    },
+    "image_url": {
+      "type": "string",
+      "description": "Event cover image URL"
+    },
+    "organizer_name": {
+      "type": "string",
+      "description": "Name of the event organizer"
+    },
+    "organizer_email": {
+      "type": "string",
+      "description": "Email of the event organizer"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Event tags for filtering"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether event is featured"
+    }
+  },
+  "required": [
+    "title",
+    "event_type",
+    "venue_name",
+    "venue_city",
+    "start_date",
+    "ticket_price",
+    "total_capacity"
+  ]
+}

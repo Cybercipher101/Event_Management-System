@@ -1,0 +1,60 @@
+{
+  "name": "Booking",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "description": "ID of the booked event"
+    },
+    "event_title": {
+      "type": "string",
+      "description": "Title of the event (for quick reference)"
+    },
+    "attendee_name": {
+      "type": "string",
+      "description": "Name of the person attending"
+    },
+    "attendee_email": {
+      "type": "string",
+      "description": "Email of the attendee"
+    },
+    "attendee_phone": {
+      "type": "string",
+      "description": "Phone number of attendee"
+    },
+    "number_of_tickets": {
+      "type": "integer",
+      "description": "Number of tickets booked"
+    },
+    "total_amount": {
+      "type": "number",
+      "description": "Total amount paid"
+    },
+    "booking_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "pending",
+        "cancelled"
+      ],
+      "default": "confirmed",
+      "description": "Status of the booking"
+    },
+    "booking_reference": {
+      "type": "string",
+      "description": "Unique booking reference number"
+    },
+    "special_requirements": {
+      "type": "string",
+      "description": "Any special requirements from attendee"
+    }
+  },
+  "required": [
+    "event_id",
+    "event_title",
+    "attendee_name",
+    "attendee_email",
+    "number_of_tickets",
+    "total_amount"
+  ]
+}
