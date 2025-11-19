@@ -42,11 +42,11 @@ export default function CreateEvent() {
     venue_name: "",
     venue_address: "",
     venue_city: "",
-    venue_country: "India", // Changed default country to India
+    venue_country: "India",
     start_date: "",
     end_date: "",
     ticket_price: 0,
-    currency: "INR", // Changed default currency to INR
+    currency: "INR",
     total_capacity: 100,
     status: "draft",
     image_url: "",
