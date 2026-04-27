@@ -1,6 +1,6 @@
-![Event Management Logo](https://img.icons8.com/color/96/000000/event-accepted-tentatively.png)
+![Lumina Logo](https://img.icons8.com/color/96/000000/event-accepted-tentatively.png)
 
-# 🌟 Event Management Platform 🌟
+# 🌟 Lumina 🌟
 *A modern, full-stack solution for discovering, booking, and managing events seamlessly.*
 
 <!-- Badges -->
@@ -14,7 +14,7 @@ Organizing and discovering events is often a fragmented and frustrating experien
 - **For Event Attendees**: Discovering relevant events, securely booking tickets, and keeping track of their upcoming schedule is spread across multiple platforms.
 - **For Event Organizers**: Creating events, managing ticket sales, and reaching the right audience requires complex tools and high fees.
 
-**Solution**: This Event Management Platform bridges the gap by providing a unified, intuitive, and secure environment where organizers can effortlessly publish events, and users can seamlessly discover and book them.
+**Solution**: **Lumina** bridges the gap by providing a unified, intuitive, and secure environment where organizers can effortlessly publish events, and users can seamlessly discover and book them.
 
 ---
 
