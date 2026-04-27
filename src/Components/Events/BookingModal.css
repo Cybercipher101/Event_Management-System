@@ -1,0 +1,44 @@
+.booking-modal-event-title {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-5);
+}
+
+.booking-tickets-available {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: -12px;
+  margin-bottom: var(--space-4);
+}
+
+.booking-summary {
+  background: var(--primary-lighter);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-md);
+  padding: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.booking-summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-2);
+}
+
+.booking-summary-total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--primary);
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--border-primary);
+}
+
+.booking-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--space-3);
+}

@@ -1,0 +1,23 @@
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 280px; /* Width of sidebar */
+  width: calc(100% - 280px);
+  min-height: 100vh;
+}
+
+/* For mobile we'd need a hamburger menu and responsive sidebar,
+   but keeping it simple for desktop-first MVP */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none; /* Hide sidebar on small screens for now */
+  }
+  .main-content {
+    margin-left: 0;
+    width: 100%;
+  }
+}
