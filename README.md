@@ -164,5 +164,5 @@ event-management/
 ---
 
 <div align="center">
-  <p>Built with ❤️ using the MERN Stack</p>
+  <p>Built with  using the MERN Stack</p>
 </div>
