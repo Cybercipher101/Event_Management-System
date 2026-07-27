@@ -102,8 +102,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Cybercipher101/Event_Management-System.git
-   cd event-management
+   git clone https://github.com/Cybercipher101/Lumina-Events.git
+   cd Lumina-Events
    ```
 
 2. **Install dependencies**
@@ -140,7 +140,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## 📂 Project Structure
 
 ```text
-event-management/
+Lumina-Events/
 ├── public/                 # Static assets
 ├── server/                 # Backend Node.js/Express application
 │   ├── config/             # Database connection & configurations
@@ -164,5 +164,5 @@ event-management/
 ---
 
 <div align="center">
-  <p>Built with  using the MERN Stack</p>
+   <p>Built with ❤️ using the MERN Stack</p>
 </div>
